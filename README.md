@@ -145,7 +145,7 @@ This also showed the potential of using the historical funding
 allocation data to predict future funding size allocation. See the
 Figure 1 below for detailed distributions:
 
-<img src="results/funding_year_discipline_plot.png" title="Comparison of the distribution of funding sizes 2016-2017 vs 2017-2018" alt="Comparison of the distribution of funding sizes 2016-2017 vs 2017-2018" width="50%"  style="display: block; margin: auto;" />
+<img src="results/funding_year_discipline_plot.png" title="Figure 1. Comparison of the distribution of funding sizes 2016-2017 vs 2017-2018" alt="Comparison of the distribution of funding sizes 2016-2017 vs 2017-2018" width="50%"  style="display: block; margin: auto;" />
 We dropped feature `region` from the original data for the repetitive
 representation of the feature already described in another feature
 `province`. We also dropped `organization_name` because there were many
@@ -162,7 +162,7 @@ classes.
 
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>
-Count of each funding size. Observed class imbalance
+Table 1. Count of each funding size. Observed class imbalance
 </caption>
 <thead>
 <tr>
@@ -222,7 +222,7 @@ To further confirm the features included in our model were meaningful we
 conducted EDA on Count of each category by received funding amount. See
 the figure 2 blow:
 
-<img src="results/funding_features_plot.png" title="Comparison of the distribution of funding sizes in different features" alt="Comparison of the distribution of funding sizes in different features" width="80%"  style="display: block; margin: auto;" />
+<img src="results/funding_features_plot.png" title="Figure 2. Comparison of the distribution of funding sizes in different features" alt="Figure 2. Comparison of the distribution of funding sizes in different features" width="80%"  style="display: block; margin: auto;" />
 We can find from the figure that the `province`, `community_type`,
 `grant_type`, `presenter_type`, `project_sub_type`, `project_type`,
 `disciplines`, and `audiences` included as features in our model all
@@ -258,7 +258,7 @@ model presented highest f1, recall and precision scores.
 
 <table class="table table" style="margin-left: auto; margin-right: auto; margin-left: auto; margin-right: auto;">
 <caption>
-Performance comparison of all models. Random Forest performs the best.
+Table 2. Performance comparison of all models. Random Forest performs the best.
 </caption>
 <thead>
 <tr>
@@ -386,7 +386,7 @@ be improved.
 
 <table class="table" style="margin-left: auto; margin-right: auto;">
 <caption>
-Test scores for the best model
+Table 3. Test scores for the best model
 </caption>
 <thead>
 <tr>
