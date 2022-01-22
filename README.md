@@ -14,22 +14,6 @@ Last update: 2022-01-22
 -   [Conclusion](#conclusion)
 -   [References](#references)
 
-# Audiance persona for the target reader
-
-Mike is a manager in an organization that professionally present arts
-festivals and offer support to arts presenters. He would like to apply
-for the Canada Arts Presentation Fund (CAPF) for the upcoming year. He’s
-very interested in the funding size that he can get granted given the
-information about current projects in his organization so that he can
-plan for the recruitment for artists and employees for the next year,
-and manage current financial budget.  
-He has some knowledge of machine learning, but more interested in how
-the model can predict the funding size given history data of funds in
-previous years.
-
-Github repo to the report:
-<https://github.com/xiangwxt/Canadian_heritage_fund_report>
-
 # Abstract
 
 Heritage conservation is considered highly important in Canadian
